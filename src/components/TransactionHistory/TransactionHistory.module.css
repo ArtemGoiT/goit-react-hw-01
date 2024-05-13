@@ -1,0 +1,26 @@
+.Transaction {
+  border-collapse: collapse;
+  min-width: 700px;
+  margin: 40px auto;
+}
+
+.Transaction th {
+  background-color: var(--black-light-color);
+  color: var(--white-color);
+}
+
+.Transaction th,
+.Transaction td {
+  border: 2px solid var(--black-color);
+  text-align: center;
+  font-size: x-large;
+}
+
+.Transaction tr:nth-child(even) {
+  background-color: var(--gray-light-color);
+}
+
+.Transaction tr td:first-child {
+  text-transform: capitalize;
+  font-weight: bold;
+}
